@@ -1,0 +1,3 @@
+C:/Users/Sayan/Desktop/lab 6 build/CMakeFiles/test.dir
+C:/Users/Sayan/Desktop/lab 6 build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Sayan/Desktop/lab 6 build/CMakeFiles/ZERO_CHECK.dir

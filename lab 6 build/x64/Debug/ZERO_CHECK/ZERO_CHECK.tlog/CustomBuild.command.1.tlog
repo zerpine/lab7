@@ -1,0 +1,10 @@
+^C:\USERS\SAYAN\DESKTOP\LAB 6 BUILD\CMAKEFILES\0A0F9E9DB694619FDCF1B3B4BF270310\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Sayan/Desktop/lab 6" "-BC:/Users/Sayan/Desktop/lab 6 build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Sayan/Desktop/lab 6 build/test.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
